@@ -1,5 +1,5 @@
 # Use ubuntu base
-FROM debian:bullseye-slim
+FROM ubuntu:jammy
 
 # Prevent dpkg interactive dialogues
 ENV DEBIAN_FRONTEND=noninteractive
@@ -49,3 +49,4 @@ RUN apt-get update \
 
 # Set the working directory
 WORKDIR /opt
+
