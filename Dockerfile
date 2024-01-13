@@ -38,6 +38,7 @@ RUN apt-get update \
         python2 \
         python3 \
         qemu-system-arm \
+        qemu-system-common \
         qemu-user-static \
         rsync \
         u-boot-tools \
